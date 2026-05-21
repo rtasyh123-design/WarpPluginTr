@@ -1,0 +1,20 @@
+name: WarpPlugin
+version: 1.0.0
+main: tr.moon.warp.WarpPlugin
+api-version: 1.21
+author: destroyerr1558
+description: Gelişmiş Warp Sistemi - 2035 Moon Edition
+
+commands:
+  setwarp:
+    description: Yeni warp oluşturur
+    usage: /setwarp <isim>
+    aliases: [sw]
+  delwarp:
+    description: Warp siler
+    usage: /delwarp <isim>
+    aliases: [dw, removewarp]
+  warps:
+    description: Warp menüsünü açar
+    usage: /warps
+    aliases: [warpmenu, wlist]
